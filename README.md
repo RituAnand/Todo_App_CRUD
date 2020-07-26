@@ -13,6 +13,18 @@ Single Page To-do Application.
 
 (https://drive.google.com/file/d/1KNfNCc2iGT-4oQ--sDswTjQEeJdGIC74/view?usp=sharing)
 
+## To Run the Project locally
+
+> clone the repository.
+> yarn install (or) npm install.
+> yarn start (or) npm start.
+> you can see the application running on the local host.
+> http://localhost:3000/
+
+## Application is Live at :
+
+> https://mighty-thicket-43079.herokuapp.com/
+ 
 ## License
 
 MIT © [RituAnand](https://github.com/RituAnand)
