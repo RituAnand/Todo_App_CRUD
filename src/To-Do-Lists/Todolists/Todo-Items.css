@@ -1,0 +1,48 @@
+
+.todo_circle{
+
+  display: flex;
+  height: 20px !important;
+  width: 20px !important;
+  border-radius: 20px !important;
+  align-items: center;
+  justify-content: center;
+  border:1px solid;
+  border-width: 1px;
+  outline: none;
+  /* -background: blue !important; */
+    
+  }
+  
+  .todo_lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: ridge;
+  }
+  .todo_lists:hover .todo_editdelete{
+  opacity: 1
+  }
+  .todo_name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+  }
+
+ 
+  .todo_check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin-left: 20;
+  }
+  .todo_editdelete{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0;
+  transition: opacity .35s ease;
+  }

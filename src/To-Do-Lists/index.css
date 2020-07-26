@@ -1,0 +1,17 @@
+/* .container{
+    height: 100%;
+    width: 30%;
+    background-color: aqua
+} */
+
+.addTodo{
+    display: inline;
+}
+.colorPallete{
+    opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.addTodo :hover .colorPallete{
+    opacity: 1;
+}

@@ -1,0 +1,33 @@
+
+.colorpallate_row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 80px;
+    border: 1px solid;
+    box-shadow: 5px 10px 15px #888888;
+    border-color: #dbc6c6;
+    border-radius: 10px
+}
+
+.colorpallate_element{
+    height: 32px;
+    width: 32px;
+    border-radius: 20px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+.colorpallate_close{
+    display: flex;
+    background-color: white;
+    height:15px;
+    width:15px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items:center;
+    
+  }
